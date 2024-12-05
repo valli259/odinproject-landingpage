@@ -103,17 +103,55 @@ img {
     margin-top: 48px;
     padding-top: 48px;
     padding-bottom: 48px;
+}
 
-.quotetext{
+.quotetext {
     font-style: italic;
     font-weight: 300;
     font-size: 36px;
     color: #1f2937;
     max-width: 500px;
 }
+
 .quoter{
     font-weight: 700;
     font-size: 24px;
-    align-self: flex-end;
-     
+    align-self: flex-end;   
+}
+
+.CTA {
+    background-color: #3882F6 ;
+    border-radius: 10px;
+    margin: 84px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 70px 36px 70px;
+}
+
+.CTAheader {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+.CTAdesc {
+    margin: 0px;
+
+}
+
+.CTAlink {
+    color: #f9faf8;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 18px;;
+}
+
+button {
+    border: solid;
+    border-color: #f9faf8; 
+    border-width: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
